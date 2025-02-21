@@ -60,13 +60,13 @@ IMG = [
     "https://envs.sh/2Lx.jpg",
 "https://envs.sh/2L-.jpg",
  "https://envs.sh/25E.jpg",
-" https://envs.sh/25h.jpg",
-" https://envs.sh/252.jpg",
-" https://envs.sh/25u.jpg",
-" https://envs.sh/25F.jpg",
-" https://envs.sh/25t.jpg",
-" https://envs.sh/25e.jpg",
-" https://envs.sh/25i.jpg"
+"https://envs.sh/25h.jpg",
+"https://envs.sh/252.jpg",
+"https://envs.sh/25u.jpg",
+"https://envs.sh/25F.jpg",
+"https://envs.sh/25t.jpg",
+"https://envs.sh/25e.jpg",
+"https://envs.sh/25i.jpg"
     ]
 
 
