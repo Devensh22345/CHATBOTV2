@@ -58,22 +58,18 @@ EMOJIOS = [
     "🕊",
 ]
 
-BOT = "https://envs.sh/vLi.jpg"
+BOT = "https://envs.sh/25i.jpg"
 IMG = [
-    "https://telegra.ph/file/010c936d41e9da782780f.jpg",
-    "https://telegra.ph/file/e17740f22da1fe4162e43.jpg",
-    "https://telegra.ph/file/38ae0f7b919a8995c7f29.jpg",
-    "https://telegra.ph/file/9fbc748ad0d552e403ba6.jpg",
-    "https://telegra.ph/file/2433c1b98d2621623ead3.jpg",
-    "https://telegra.ph/file/62f26ca46103beee9a0d5.jpg",
-    "https://telegra.ph/file/d3e855bc548a1ce9649e7.jpg",
-    "https://telegra.ph/file/b860df3e144c2208a7e5a.jpg",
-    "https://telegra.ph/file/33591be403ae3eaae7217.jpg",
-    "https://telegra.ph/file/a9d91437d795b0ae55af8.jpg",
-    "https://telegra.ph/file/1891e318996f393e0aebc.jpg",
-    "https://telegra.ph/file/84492c50c7a8a8d2603dc.jpg",
-    "https://telegra.ph/file/ae843fb1e51218521e95b.jpg",
-    "https://telegra.ph/file/0b98ff58d75e85438d3a0.jpg"
+    "https://envs.sh/2Lx.jpg",
+"https://envs.sh/2L-.jpg",
+ "https://envs.sh/25E.jpg",
+"https://envs.sh/25h.jpg",
+"https://envs.sh/252.jpg",
+"https://envs.sh/25u.jpg",
+"https://envs.sh/25F.jpg",
+"https://envs.sh/25t.jpg",
+"https://envs.sh/25e.jpg",
+"https://envs.sh/25i.jpg"
     ]
 
 
@@ -274,7 +270,7 @@ async def start(client: Client, m: Message):
         )
         
         animation_steps = [
-            "🖤.......", ".🖤......", "..🖤.....", "...🖤....", "....🖤...", ".....🖤..", "......🖤.", ".......🖤", "🖤ᴄʜᴧᴍᴘᴜ🖤"
+            "🖤.......", ".🖤......", "..🖤.....", "...🖤....", "....🖤...", ".....🖤..", "......🖤.", ".......🖤", "🖤@Alya_bots🖤"
         ]
 
         for step in animation_steps:
@@ -364,7 +360,7 @@ async def ping(client: Client, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**⋆ʟᴏᴠᴇ ᴡɪᴛʜ⋆ [  ꯭꯭↬꯭ᬃ꯭ ⃪꯭ ꯭⁢⁣⁤⁣⁣⁢⁣⁤⁢⁤⁣⁢⁤⁣⁤᪳᪳🇷꯭𝚰𝛅꯭꯭ʜ꯭֟፝፝֟ᴜ ꯭꯭༗꯭»꯭݅݅݅݅𓆪 ](https://t.me/{OWNER_USERNAME}) **||</b>",
+        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**⋆ʟᴏᴠᴇ ᴡɪᴛʜ⋆ [ Light ](https://t.me/{OWNER_USERNAME}) **||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
