@@ -67,20 +67,4 @@ async def shayri(client: Client, message: Message):
     
     await message.reply_text(
         text=random.choice(SHAYRI),
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url=f"https://t.me/{SUPPORT_GRP}"
-                    ),
-                    InlineKeyboardButton(
-                        "❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url=f"https://t.me/{SUPPORT_GRP}"
-                    ),
-                ]
-            ]
-        ),
-    )
-
-
-
-
+        
