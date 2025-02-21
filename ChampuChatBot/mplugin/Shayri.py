@@ -67,15 +67,6 @@ SHAYRI_COMMAND = ["gf", "bf", "shayri", "sari", "shari", "love"]
 async def shayri(client: Client, message: Message):
     
     await message.reply_text(
-        text=random.choice(SHAYRI),
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url="https://t.me/ChampuBots"),
-                    InlineKeyboardButton("❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url="https://t.me/Blissfull_Music"),
-                ]
-           ]
-        ),
-    )
+        text=random.choice(SHAYRI) )
     
 
