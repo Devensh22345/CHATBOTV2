@@ -66,5 +66,5 @@ SHAYRI_COMMAND = ["gf", "bf", "shayri", "sari", "shari", "love"]
 async def shayri(client: Client, message: Message):
     
     await message.reply_text(
-        text=random.choice(SHAYRI)
+        text=random.choice(SHAYRI))
         
