@@ -55,7 +55,7 @@ EMOJIOS = [
     "🕊",
 ]
 
-BOT = "https://envs.sh/vLi.jpg"
+BOT = "https://envs.sh/25t.jpg"
 IMG = [
     "https://envs.sh/2Lx.jpg",
 "https://envs.sh/2L-.jpg",
