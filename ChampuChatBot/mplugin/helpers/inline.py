@@ -22,9 +22,6 @@ DEV_OP = [
     [
         InlineKeyboardButton(text="❍ 𝐇ᴇʟᴘ ❍", callback_data="HELP"),
     ],
-    [
-        InlineKeyboardButton(text="❍ 𝐀ʙᴏᴜᴛ ❍", callback_data="ABOUT"),
-    ],
 ]
 
 PNG_BTN = [
